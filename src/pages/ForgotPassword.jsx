@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import api from "../utils/api";
 import useToast from "../hooks/useToast";
 import SpinnerLoad from "../components/Spinner";
-import InputOTP from "../components/InputOTP";
+import InputOTP from "../components/InputOtp";
 import CountdownTimer from "../components/CountDownTimer";
 
 import { Link, useNavigate } from "react-router-dom";
