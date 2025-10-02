@@ -2,7 +2,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/api",
+  // baseURL: `${process.env.VITE_LOCAL_PORT}/api`,
+  baseURL: `${process.env.VITE_DEPLOY_PORT}/api`,
   withCredentials: true,
 });
 
