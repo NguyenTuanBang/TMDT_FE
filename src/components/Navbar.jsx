@@ -35,7 +35,7 @@ function Navbar() {
                 Trang Chủ
               </Link>
               <Link
-                to="/products"
+                to="/listProduct"
                 className="px-3 py-2 rounded-lg hover:bg-white/20 transition cursor-pointer"
               >
                 Sản Phẩm
